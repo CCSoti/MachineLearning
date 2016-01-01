@@ -1,0 +1,160 @@
+%&pdfLaTeX
+% !TEX encoding = UTF-8 Unicode
+\documentclass{article}
+\usepackage{ifxetex}
+\ifxetex
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text]{STIXGeneral}
+\else
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\fi
+\usepackage{textcomp}
+
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\title{{\Large{}\textbf{Research  Methods and Techniques In-depth Review Template}}}
+\author{Silviya Sotirova: 1103571s}
+
+\begin{document}
+
+\maketitle
+ 
+%\begin{tabular}{|>{\raggedright}p{228pt}|>{\raggedright}p{97pt}|}
+ 
+Paper Title: {\em Google DeepMind Learning Algorithm} 
+ 
+  
+Author[s]: {\em }
+
+Journal :
+
+Date: \today{}
+ 
+\subsubsection*{{\large{}\textbf{Abstract}}}
+
+The review gives explanations and details about the reinforcement learning problem that have been existing for ages - how to learn from an interaction so that a goal can be achieved. Google has been able to prove that this problem can be conquered. The paper goes through several journals analyzing the work and the results behind the Google Atari Deepmind algorithm, which has shown that a piece of software prototype can learn how to play computer games and beat the game after a few hours of practice. The reason for its creation is to build general purpose smart machines and that is the first and initial step of achieving this challenging task.  
+
+
+\vspace{12pt}
+\section{{\textbf{Problem Statement}}}
+
+This section starts from the origins of the problem that is covered in the literature review - main threads of reinforcement learning. It continues by going through detail about Google DeepMind algorithm.
+
+\subsection{Reinforcement Learning}
+Learning from interactions has always been in the human nature. It is one of the main sources of knowledge for people to know how to behave and live. Learning to play the violin is difficult, but achievable - a lot of exercising helps the human mind to collect information from mistakes and to learn from causes, effects and consequences.\cite[Ch.\ 1, p. 3]{sutton1998reinforcement}
+
+The process of learning from trials and experience has led to the idea of creating software performing the same action. Machines are effective tool for economic operations or computational experiments - a machine could be faster than a human in calculations, performance and accuracy of a specific task. Therefore, reinforcement learning was born as a concept of mapping situations to actions. It is connected with two major problems that have to be considered during creation of the algorithm - learning by error and trial, and optimization of functions. Both of these issues are independent from each other, but there are a few exceptions, which might be recognized as a third problem - it includes temporal-difference methods. \cite[Ch.\ 1, p. 16]{sutton1998reinforcement}
+
+
+------------------------------------------------------------------------------------------------
+
+
+In order to understand what is RL...
+Reinforcement learning is defined not by characterizing learning methods,
+but by characterizing a learning problem. Any method that is well suited to
+solving that problem, we consider to be a reinforcement learning method.
+but the basic
+idea is simply to capture the most important aspects of the real problem facing
+a learning agent interacting with its environment to achieve a goal. Clearly,
+such an agent must be able to sense the state of the environment to some extent
+and must be able to take actions that affect the state. The agent also must
+have a goal or goals relating to the state of the environment. The formulation
+is intended to include just these three aspects—sensation, action, and goal—in
+their simplest possible forms without trivializing any of them.\cite{sutton1998reinforcement}
+
+Reinforcement learning is different from supervised learning, the kind of
+learning studied in most current research in machine learning, statistical pattern
+recognition, and artificial neural networks. Supervised learning is learning
+from examples provided by a knowledgable external supervisor. In uncharted territory—where one would expect learning to be most beneficial—an agent must be able to learn from its
+own experience. \cite{sutton1998reinforcement}
+
+
+\subsection{Google DeepMind}
+Google DeepMind is a British artificial intelligence company. Founded in 2010 as DeepMind Technologies, it was acquired by Google in 2014. 
+
+DeepMind Technologies's goal is to "solve intelligence",[22] which they are trying to achieve by combining "the best techniques from machine learning and systems neuroscience to build powerful general-purpose learning algorithms.
+
+In 2010 the start-up was founded by Demis Hassabis.
+Google DeepMind created an artificial intelligence program using deep reinforcement learning that plays Atari games and improves itself to a superhuman level. It is capable of playing many Atari games and uses a combination of deep artificial neural networks and reinforcement learning. After presenting their initial results with the algorithm, Google almost immediately acquired the company for several hundred million dollars, hence the name Google DeepMind. 
+
+Google-backed startup DeepMind Technologies has built an artificial intelligence agent that can learn to successfully play 49 classic Atari games by itself, with minimal input. \cite{liatClark}. Google-backed startup DeepMind Technologies has built an artificial intelligence agent that can learn to successfully play 49 classic Atari games by itself, with minimal input.
+
+Currently the company's focus is on publishing research on computer systems that are able to play games, and developing these systems, ranging from strategy games such as Go[25] to arcade games. According to Shane Legg human-level machine intelligence can be achieved "when a machine can learn to play a really wide range of games from perceptual stream input and output, and transfer understanding across games. Research describing an AI playing seven different Atari video games (Pong, Breakout, Space Invaders, Seaquest, Beamrider, Enduro, and Q*bert) reportedly led to their acquisition by Google.
+
+
+What is Atari?
+
+What is Deep reinforcement learning?
+
+The reason for creating it. Why it is useful and how in the future will help? In contributions more.
+Is it useful now? How can we be sure of that? Are the tests enough?
+
+\cite{liamThung}
+
+\vspace{12pt}
+ 
+\subsection*{{ {\textbf{Contributions}}}}
+
+http://www.newyorker.com/tech/elements/deepmind-artificial-intelligence-video-games
+ 
+ \vspace{12pt}
+\subsection*{{ {\textbf{Approach}}}}
+
+  
+  {<}text {>}
+ 
+ \vspace{12pt}
+\subsection*{{ {\textbf{Methodology}}}}
+
+  
+  {<}text {>}
+ 
+ \vspace{12pt}
+\subsection*{{ {\textbf{Outcomes}}}}
+
+  
+  {<}text {>}
+ 
+ \vspace{12pt}
+\subsection*{{ {\textbf{Related Work}}}}
+ 
+ {<}text {>}
+
+\vspace{12pt}
+ 
+\subsection*{{  {\textbf{Conclusions}}}}
+
+Reinforcement learning is a computational approach to understanding and automating
+goal-directed learning and decision-making. It is distinguished from
+other computational approaches by its emphasis on learning by the individual
+from direct interaction with its environment, without relying on exemplary
+supervision or complete models of the environment. In our opinion, reinforcement
+learning is the first field to seriously address the computational issues
+that arise when learning from interaction with an environment in order to
+achieve long-term goals.
+
+Reinforcement learning uses a formal framework defining the interaction
+between a learning agent and its environment in terms of states, actions, and
+rewards. This framework is intended to be a simple way of representing essential
+features of the artificial intelligence problem. These features include a sense of cause and effect, a sense of uncertainty and nondeterminism, and the
+existence of explicit goals.
+
+  
+  {<}text {>}
+ 
+ \vspace{12pt}
+% \subsection*{{\large{}\textit{\textbf{References}}}}
+
+% \vspace{12pt}
+% \leftskip=42pt
+% \parindent=-24pt
+% [1] \texttt{<}a reference\texttt{>}
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
+\newpage
+\end{document}
