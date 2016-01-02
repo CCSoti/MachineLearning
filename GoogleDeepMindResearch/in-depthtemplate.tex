@@ -16,7 +16,7 @@
 \usepackage{fancyhdr}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\title{{\Large{}\textbf{Research  Methods and Techniques In-depth Review Template}}}
+\title{{\Large{}\textbf{Research  Methods and Techniques: In-depth Review Template}}}
 \author{Silviya Sotirova: 1103571s}
 
 \begin{document}
@@ -40,23 +40,8 @@ The review gives explanations and details about the reinforcement learning probl
 
 
 \vspace{12pt}
-\section{{\textbf{Problem Statement}}}
+\section{{\textbf{Introduction}}}
 
-This section starts from the origins of the problem that is covered in the literature review - main threads of reinforcement learning. It continues by going through detail about Google DeepMind algorithm.
-
-\subsection{Reinforcement Learning}
-Learning from interactions has always been in the human nature. It is one of the main sources of knowledge for people to know how to behave and live. Learning to play the violin is difficult, but achievable - a lot of exercising helps the human mind to collect information from mistakes and to learn from causes, effects and consequences.\cite[Ch.\ 1, p. 3]{sutton1998reinforcement}
-
-The process of learning from trials and experience has led to the idea of creating software performing the same action. Machines are effective tool for economic operations or computational experiments - a machine could be faster than a human in calculations, performance and accuracy of a specific task. Therefore, reinforcement learning was born as a concept of mapping situations to actions. It is connected with two major problems that have to be considered during creation of the algorithm - learning by error and trial, and optimization of functions. Both of these issues are independent from each other, but there are a few exceptions, which might be recognized as a third problem - it includes temporal-difference methods. \cite[Ch.\ 1, p. 16]{sutton1998reinforcement}
-
-
-------------------------------------------------------------------------------------------------
-
-
-In order to understand what is RL...
-Reinforcement learning is defined not by characterizing learning methods,
-but by characterizing a learning problem. Any method that is well suited to
-solving that problem, we consider to be a reinforcement learning method.
 but the basic
 idea is simply to capture the most important aspects of the real problem facing
 a learning agent interacting with its environment to achieve a goal. Clearly,
@@ -72,8 +57,29 @@ recognition, and artificial neural networks. Supervised learning is learning
 from examples provided by a knowledgable external supervisor. In uncharted territory—where one would expect learning to be most beneficial—an agent must be able to learn from its
 own experience. \cite{sutton1998reinforcement}
 
+\section{{\textbf{Problem Statement}}}
+
+Reinforcement learning is closely connected with the Google Deep Mind algorithm that we are assessing with the literature review. Clarifying the features of this area of study, will give clear understanding for the unique innovation. This section starts from the origins of the problem that is covered in the literature review - the main elements and threads of reinforcement learning. It continues by going through detail about Google DeepMind algorithm.
+
+\subsection{Reinforcement Learning}
+Learning from interactions has always been in the human nature. It is one of the main sources of knowledge for people to know how to behave and live. Learning to play the violin is difficult, but achievable - a lot of exercising helps the human mind to collect information from mistakes and to learn from causes, effects and consequences.\cite[Ch.\ 1, p. 3]{sutton1998reinforcement}
+
+The process of learning from trials and experience has led to the idea of creating software performing the same action. Machines are effective tool for economic operations or computational experiments - a machine could be faster than a human in calculations, performance and accuracy of a specific task. Therefore, reinforcement learning was born as a concept of mapping situations to actions. \cite[Ch.\ 1, p. 16]{sutton1998reinforcement} 
+
+It could, also, be defined as an area of study that investigates and analyzes the use and control of an agent - "a self-contained programs capable of controlling its own decision making and acting, based on its perception of its environment, in pursuit of one or more objectives"\cite{jennings1996software}, and it is creating the best possible models for overcoming the problems occurring when learning through trial-and-error interactions\cite{kaelbling1996reinforcement}. There are huge number of software tools and applications using agents for various reasons, such as personal information management, electronic commerce, business process management and network management\cite{jennings1996software}. Examples are: checking your e-mail and sorting it according to some preferences, or buyer agents that are around the Internet collecting information about goods and services\cite{wikiAgent}. However, software agents are bringing numerous problems. Their autonomous nature should be handled with great concern from users. An example is the filtering email agent - an important message might be deleted. Far critical case is the situation when an agent is making financial decisions\cite{norman1994might}. As a consequence, various security issues are encountered.
+
+Furthermore, reinforcement learning can be described as a study characterizing a learning problem and any method, which is used for the its solution, is called a reinforcement learning method\cite{sutton1998reinforcement}. Also, as further explanation, learning from interaction could be viewed abstractly - the decision-maker is the agent and everything outside of it, or everything that it connects with, is the environment. The communication between them comprises of actions taken by the agent and the environment reacting to them. Two more important features are rewards, which are returned numerical values and tasks - a full description of the environment. In more detail, the agent and the environment are following time steps and in each of them the agent is obtaining a result, presenting the environment's state and depending on it the agent selects an action. As a result, the agent receives a numerical reward and it transfer to a new state. This abstract framework can be viewed as mapping from states to probabilities of selecting each possible action, and it is called the agent's policy\cite{sutton1998reinforcement}. The main objective of reinforcement learning is determining the changes in the agent's policy, which depends of its experience. Also, the agent has a task to maximize the reward. 
+
+Reinforcement learning is connected with two major problems that have to be considered during creation of an algorithm - learning by error and trial, and optimization of functions. Both of these issues are independent from each other, but there are a few exceptions, which might be recognized as a third problem - it includes temporal-difference methods. \cite[Ch.\ 1, p. 16]{sutton1998reinforcement} 
+
+\subsection{{\textbf{Deep Learning and Neural Networks}}}
+
 
 \subsection{Google DeepMind}
+The features of reinforcement learning and an software agent are crucial part of the understanding the Google Deep Mind algorithm.
+
+
+
 Google DeepMind is a British artificial intelligence company. Founded in 2010 as DeepMind Technologies, it was acquired by Google in 2014. 
 
 DeepMind Technologies's goal is to "solve intelligence",[22] which they are trying to achieve by combining "the best techniques from machine learning and systems neuroscience to build powerful general-purpose learning algorithms.
