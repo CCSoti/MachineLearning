@@ -74,6 +74,22 @@ Reinforcement learning is connected with two major problems that have to be cons
 
 \subsection{{\textbf{Deep Learning and Neural Networks}}}
 
+Deep learning is a category of machine learning, which is investigating and analyzing data layers with models for feature extraction, pattern recognition and classification\cite{schmidhuber2015deep}. Another, more detailed, definition is "is a branch of machine learning based on a set of algorithms that attempt to model high-level abstractions in data by using multiple processing layers with complex structures, or otherwise composed of multiple non-linear transformations"\cite{wikiDeep}. With its processing power, deep learning is becoming crucial area of study for investigating, analyzing and predicting data\cite{chen2014big}.
+
+Machine learning techniques have been using shallow-structured architectures, which are containing nonlinear transformations for a single layer, but not for multiple. Great examples are the Gaussian mixture models and hidden Markov models\cite{deng2012three}. In recent times, deep learning takes crucial part in biological researches for processing natural signals. Its advanced performance in the analysis of data domains, such as computer vision and speech recognition, is one of the reasons for its widely usage. The huge amount of any types of data has benefited from the applying of deep learning techniques and architectures. There are a lot of projects and journals connected with this field of study - e.g. companies, such as Google, have used deep learning algorithms on enormous amounts of messy Internet data for the creation and management of the Google's translator\cite{deng2012three}. However, the implementation of these algorithms is a challenging process. For instance, since the human speech perception has layered hierarchical structure as the deep learning architectures have, assessing each of the layers might cause various issues for the implementation of the algorithm. \cite{deng2012three}.
+
+-------------------------
+However reinforcement learning presents several challenges from a deep learning perspective.
+Firstly, most successful deep learning applications to date have required large amounts of handlabelled
+training data. RL algorithms, on the other hand, must be able to learn from a scalar reward
+signal that is frequently sparse, noisy and delayed. The delay between actions and resulting rewards,
+which can be thousands of timesteps long, seems particularly daunting when compared to the direct
+association between inputs and targets found in supervised learning. Another issue is that most deep
+learning algorithms assume the data samples to be independent, while in reinforcement learning one
+typically encounters sequences of highly correlated states. Furthermore, in RL the data distribution
+changes as the algorithm learns new behaviours, which can be problematic for deep learning
+methods that assume a fixed underlying distribution.\cite{mnih2013playing}
+------------------------------------
 
 \subsection{Google DeepMind}
 The features of reinforcement learning and an software agent are crucial part of the understanding the Google Deep Mind algorithm.
